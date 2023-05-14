@@ -1,0 +1,44 @@
+{
+    "python.defaultInterpreterPath": "C:\\Python311\\python.exe",
+    "python.testing.unittestEnabled": true,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "${workspaceFolder}",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.analysis.extraPaths": [],
+    "python.testing.pytestArgs": [
+        "Python"
+    ],
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "off",
+    "files.associations": {
+        "*.COBOL*": "cobol",
+        "*.COB*": "cobol",
+        "*.COBCOPY*": "cobol",
+        "*.COPYBOOK*": "cobol",
+        "*.COPY*": "cobol",
+        "*.PL1*": "pl1",
+        "*.PLI*": "pl1",
+        "*.INC*": "pl1",
+        "*.INCLUDE*": "pl1",
+        "*.JCL*": "jcl",
+        "*.ASM*": "hlasm",
+        "*.ASSEMBLE*": "hlasm",
+        "*.HLASM*": "hlasm",
+        "*.HLA*": "hlasm",
+        "*.MACLIB*": "hlasm",
+        "*.EXEC*": "rexx",
+        "*.REXX*": "rexx",
+        "*.REXXINC*": "rexx",
+        "*.copyasm": "hlasm",
+        "*.macasm": "hlasm",
+        "*.bms": "hlasm",
+        "*.rex": "rexx",
+        "*.rexx": "rexx",
+        "python.h": "c"
+    }
+}
